@@ -1,0 +1,57 @@
+.mybackgroundcolor {
+    background-color: #150d2e;
+}
+
+.typedunderlinecolor {
+    text-decoration: none;
+    border: none !important;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    text-decoration: underline;
+    text-decoration-color: #150d2e;
+    text-underline-offset: 6px;
+
+}
+
+.typed-cursor {
+    text-decoration: none;
+    border: none !important;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.about-underline {
+    text-decoration: underline 4px #534184 !important;
+    text-underline-offset: 25px !important;
+}
+
+.section-title h2::after {
+  display: none !important;
+}
+
+.resume-item {
+  border-left: 2px solid #534184 !important;
+}
+
+.resume-item::before {
+  border: 2px solid #534184 !important;
+}
+
+.navmenu a.active i {
+  color: #534184 !important;
+}
+
+.navmenu a:hover i {
+  color: #534184 !important;
+}
+
+.tableau-wrapper {
+  width: 100%;
+  max-width: 1200px;   /* makes it wider */
+  margin: 0 auto;      /* centers it */
+}
+
+.tableau-wrapper object {
+  width: 100% !important;
+  height: 900px !important;  /* 🔥 adjust this until no scrolling */
+}

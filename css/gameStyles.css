@@ -1,0 +1,30 @@
+.common {
+    background-color: rgb(255, 211, 218) !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#resultBox {
+  display: none;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid #917070;
+  background-color: #f8f1ee;
+}
+
+#resultTitle {
+  margin-bottom: 10px;
+}
+
+#resultDescription {
+  margin: 0;
+}
+
+.backtohome {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backtohome:hover {
+    color: rgb(255, 0, 128);
+}
